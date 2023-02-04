@@ -40,6 +40,7 @@ section#login{
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    
 }
 
 section#login > div#imagem{
@@ -48,10 +49,22 @@ section#login > div#imagem{
     background-size: cover;
     background-position: left center;
     height: 200px;
+    
 }
 
-section#login > dix#formulario{
+section#login > div#formulario{
     display: block;
     padding: 10px;
+    
 
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+    
 }
